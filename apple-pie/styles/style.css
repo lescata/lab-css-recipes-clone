@@ -1,0 +1,50 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;       /*body sans marg pour gere ca en container */
+  padding-bottom: 5em;
+}
+
+header h1 {
+  background-image: url(../images/apple-pie.jpg);
+  background-size: cover;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 0; /*mise en bkg de la photo centre + titre en h1*/
+  font-size: 500%;
+  padding-top: 250px;
+  padding-bottom: 250px;
+  text-align: center;
+}
+.container {
+  width: 70%;
+  margin-left: auto;/*block pour mettre les texte centre avec la barre*/
+  margin-right: auto;
+}
+section h2 {
+  font-weight: normal;
+  border-top: 3px solid rgb(133, 129, 129);/*bare grise  */
+  padding-top: 1em;
+}
+
+#one img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; /*logo en block avec centre milieu avec 2auto */
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+#two img {
+  display: block;      /*logo en block avec centre milieu avec 2auto */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+#two ul{
+    list-style:none; /* j'enleve les points devant la list */
+     padding-left: 0;/* je mets le texte a droite */
+}
+
+#two li:before {
+    content:"- ";/* je met le signe - espace pour remplacer le point */
+}
